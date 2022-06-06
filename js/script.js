@@ -5,7 +5,7 @@ let playerSelection = prompt("Choose: rock, paper or scissors");
 
 function computerPlay() {
   //result can be: Rock, Paper or Scissors
-  return choices[Math.floor(Math.random() * 3)]; //to get a whole number between the choices sizes
+  return choices[Math.floor(Math.random() * choices.length)]; //to get a whole number between the choices sizes
 }
 
 function playRound(playerSelection, computerSelection) {
