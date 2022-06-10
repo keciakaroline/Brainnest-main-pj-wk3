@@ -30,6 +30,7 @@ function playRound(playerSelection, computerSelection) {
 function game() {
   for (let i = 1; i <= 5; i++) {
     let playerSelection = prompt("Choose: rock, paper or scissors");
+    playerSelection = playerSelection.toLowerCase();
     if (
       playerSelection == "rock" ||
       playerSelection == "paper" ||
