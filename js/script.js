@@ -42,6 +42,7 @@ function game() {
       console.log(playRound(playerSelection, computerSelection), i);
     } else {
       alert("type a valid answer");
+      i--;
     }
   }
 }
